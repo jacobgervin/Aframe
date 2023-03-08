@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>360View</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sky id="img-360" position="-0.16808 -0.06406 0" radius="100" src="space.jpg"> </a-sky>
+      <a-entity id="light1" position="11.65087 3.019 3.31817" light="color: #BBB; intensity: 1;; angle: 59.21; decay: -0.05"></a-entity>
+      <a-entity id="light2" position="-14.98609 -0.01777 0.2992" light="color: #BBB; intensity: 4;"></a-entity>
+      
+      <a-entity id="ufo" position="-0.69455 1.07738 -6.13251" rotation="0 0 0" animation="property: rotation; to: 0 360 0; dur: 2000; easing: linear; loop: true" gltf-model="url(/ufo/scene.gltf)"></a-entity>
+      <a-entity id="earth" scale="0.05 0.05 0.05" position="3.63547 6 -41" rotation="-7.500688328597598 57.37264084555021 -23.559062711517694" animation="property: rotation; to: 0 360 0; dur: 20000; easing: linear; loop: true" gltf-model="url(/earth/earth.gltf)"></a-entity>
+      <a-entity id="sun" scale="2 2 2" position="-50.41389 6 -41" rotation="-5.306849502806612 145.88660398788454 -16.668390254335932" animation="property: rotation; to: 0 360 0; dur: 20000; easing: linear; loop: true" gltf-model="url(/sun/scene.gltf)"></a-entity>
+      <a-entity id="mercury" scale="0.05 0.05 0.05" position="-17.8534 6 -41" rotation="-4.213293560011558 190.00788093708923 -13.233618416578683" animation="property: rotation; to: 0 360 0; dur: 20000; easing: linear; loop: true" gltf-model="url(/mercury/scene.gltf)"></a-entity>
+      <a-entity id="venus" scale="3 3 3" position="-8.92634 3.86798 -45.33023" rotation="-1.1884564968148752 312.0498072517193 -3.732846895080525" animation="property: rotation; to: 0 360 0; dur: 20000; easing: linear; loop: true" gltf-model="url(/venus/scene.gltf)"></a-entity>
+      <a-entity id="mars" scale="0.03 0.03 0.03" position="15.28782 5.91022 -40.44319" rotation="-0.9800309386859666 320.4590723049491 -3.0781988708557777" animation="property: rotation; to: 0 360 0; dur: 20000; easing: linear; loop: true" gltf-model="url(/mars/scene.gltf)"></a-entity>
+      <a-entity id="jupiter" scale="0.08 0.08 0.08" position="29.85119 5.91022 -40.44319" rotation="-0.808486323178521 327.3803162886849 -2.539390940501641" animation="property: rotation; to: 0 360 0; dur: 20000; easing: linear; loop: true" gltf-model="url(/jupiter/scene.gltf)"></a-entity>
+      <a-entity id="saturn" scale="0.04 0.04 0.04" position="47.39413 5.91022 -40.44319" rotation="12.15931032826633 -13.649573553401602 40.89199783848685" animation="property: rotation; to: 0 360 0; dur: 20000; easing: linear; loop: true" gltf-model="url(/saturn/scene.gltf)"></a-entity>
+      <a-entity id="uranus" scale="3 3 3" position="62.54916 2.49558 -37.12912" rotation="5.745395723210935 183.44684000022656 19.321877898669516" gltf-model="url(/uranus/scene.gltf)"></a-entity>
+
+
+
+
+
+
+
+
+    
+    </a-scene>
+  </body>
+</html>
